@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: $sans-serif;
+    font-weight: normal;
+    line-height: 1.7;
+    font-size: $base-font-size + px;
+    color: $color-text;
+    background-color: $b;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0 0 25px;
+}
+
+
+h1 {
+    font-size: em(81);
+    font-weight: normal;
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(50);
+    }
+
+    @include breakpoint(ipad) {
+        font-size: em(40);
+    }
+
+    @include breakpoint(mobile) {
+        font-size: em(30);
+    }
+}
+
+h2 {
+    font-size: em(52);
+    font-weight: normal;
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(36);
+    }
+
+    @include breakpoint(ipad) {
+        font-size: em(28);
+    }
+
+    @include breakpoint(mobile) {
+        font-size: em(22);
+    }
+}
+
+h3 {
+    font-size: em(32);
+    font-weight: normal;
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(28);
+    }
+
+    @include breakpoint(ipad) {
+        font-size: em(22);
+    }
+
+    @include breakpoint(mobile) {
+        font-size: em(18);
+    }
+}
+
+h4 {
+    font-size: em(27);
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(24);
+    }
+}
+
+h5 {
+    font-size: em(24);
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(21);
+    }
+}
+
+h6 {
+    font-size: em(20);
+    font-family: $serif;
+
+    @include breakpoint(desktop) {
+        font-size: em(18);
+    }
+}
+
+p {
+    font-size: em(18);
+    font-family: $sans-serif;
+    line-height: 1.7;
+    margin-bottom: 35px;
+    color: $color-text;
+
+    @include breakpoint(desktop) {
+        font-size: em(16);
+        margin-bottom: 30px;
+    }
+
+    strong {
+        font-family:  $sans-serif;
+        font-weight: normal;
+    }
+
+    a {
+        color: #000;
+
+        &:hover,
+        &:focus {
+            color: $color-secondary;
+        }
+    }
+}

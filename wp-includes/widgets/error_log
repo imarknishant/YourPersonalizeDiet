@@ -1,0 +1,2 @@
+[04-Jan-2022 22:49:06 Europe/London] PHP Fatal error:  Class 'WP_Widget' not found in /home/yourpers/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[13-Jan-2022 18:48:29 Europe/London] PHP Fatal error:  Class 'WP_Widget' not found in /home/yourpers/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17

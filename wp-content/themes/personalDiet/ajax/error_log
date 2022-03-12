@@ -1,0 +1,6 @@
+[19-Jan-2022 00:09:02 America/Boise] PHP Parse error:  syntax error, unexpected 'cancel_url' (T_STRING), expecting ']' in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52
+[19-Jan-2022 00:09:29 America/Boise] PHP Parse error:  syntax error, unexpected 'cancel_url' (T_STRING), expecting ']' in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52
+[24-Feb-2022 04:48:08 UTC] PHP Warning:  A non-numeric value encountered in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52
+[24-Feb-2022 04:49:52 UTC] PHP Warning:  A non-numeric value encountered in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52
+[24-Feb-2022 04:50:52 UTC] PHP Warning:  A non-numeric value encountered in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52
+[24-Feb-2022 04:51:34 UTC] PHP Warning:  A non-numeric value encountered in /home3/yourpfb9/public_html/wp-content/themes/personalDiet/ajax/stripe_charge.php on line 52

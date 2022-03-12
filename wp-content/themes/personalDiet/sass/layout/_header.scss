@@ -1,0 +1,142 @@
+//Header Content Here
+#header {
+    position: relative;
+    background-color: $w;
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 68%;
+        background-color: #dcdcdc;
+        height: 1px;
+        width: 100%;
+
+        @include breakpoint(desktop){
+           top: 65%;
+          }
+    }
+    .navbar-expand-lg {
+        flex-direction: column;
+        padding: 0;
+
+        .navbar-brand {
+            padding: 10px 0 10px 0px;
+            margin: 0;
+            margin-bottom: 12px;
+
+            @include breakpoint(desktop){
+                width: 100%;
+                max-width: 360px;
+              }
+        }
+
+        .navbar-collapse {
+            margin: 10px 0 20px 0px;
+
+            @include breakpoint(desktop){
+                margin: 0 0px 10px 0px;
+              }
+
+            @include breakpoint(ipad) {
+                visibility: hidden;
+                opacity: 0;
+                overflow: hidden;
+                transition: all 0.3s ease-in-out;
+
+                &.show {
+                    visibility: visible;
+                    opacity: 1;
+                    height: auto;
+                    transition: all 0.3s ease-in-out;
+
+                }
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    margin: 0 58px 0 58px;
+
+                    @include breakpoint(desktop){
+                        margin: 0 37px 0 37px;
+                      }
+
+                    &:first-child {
+                        margin-left: 0;
+                    }
+
+                    a.nav-link {
+                        color: #000;
+                        padding: 0;
+                        font-size: 21px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        font-family: $serif;
+                        position: relative;
+
+                       &::after{
+                           content: "";
+                           position: absolute;
+                           left: 0;
+                           bottom: 0;
+                           background-color: #1369b3;
+                           width: 0;
+                           height: 3px;
+                           transition: all 0.3s ease-in-out;
+                       }
+
+                       &:hover{
+                           color: #1369b3;
+                           &::after{
+                               width: 50%;
+                           }
+                       }
+
+                        @include breakpoint(desktop){
+                            font-size: 17px;
+                          }
+
+                        svg{
+                            width: 30px;
+                            height: 27px;
+                            transition: all 0.3s ease-in-out;
+                            
+                            @include breakpoint(desktop){
+                                width: 25px;
+                                height: 24px;
+                              }
+                        }
+                    }
+                }
+            }
+
+            ul.navbar-nav.sign-in {
+                li.nav-item {
+                    margin-right: 0;
+                    margin-left: 30px;
+                    a.nav-link{
+                        font-size: 18px;
+                        border: 1px solid #000;
+                        border-radius: 40px;
+                        padding: 8px 25px;
+
+                        &::after{
+                            display: none;
+                        }
+
+                        &:hover{
+                            border: 1px solid #1369b3;
+                            svg{
+                                fill: #1369b3;
+                            }
+                        }
+
+                        @include breakpoint(desktop){
+                            padding: 6px 22px;
+                            font-size: 16px;
+                          }
+                    }
+                }
+            }
+        }
+    }
+}

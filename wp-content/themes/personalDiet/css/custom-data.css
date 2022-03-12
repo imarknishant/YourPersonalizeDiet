@@ -1,0 +1,56 @@
+body.white-bg {
+    background-color: #e1e1df;
+}
+
+#dash-header {
+    padding: 12px 30px 12px 10px;
+    height: 130px;
+    z-index: 99;
+}
+.show-sidebar-btn{
+    z-index: 9;
+}
+
+@media screen and (max-width: 1499px){
+    .chart {
+    transform: scale(0.8);
+}
+.male-table table td img {
+    width: 65px;
+    height: 45px;
+    object-fit: cover;
+}
+.dash-meal-table .male-table table tr td {
+    padding: 0 15px;
+}
+.male-table table td a span{
+    top: 12px;
+}
+    #dash-header {
+        height: 92px !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+#dash-header {
+    height: 80px !important;
+}
+}
+
+@media screen and (max-width: 991px){
+.chart .center-logo {
+    left: 50%;
+}
+    .chart .graph {
+    transform: scale(0.7);
+    display: flex;
+    justify-content: center;
+}
+    .chart {
+    transform: scale(0.8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+}

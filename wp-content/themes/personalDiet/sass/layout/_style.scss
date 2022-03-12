@@ -1,0 +1,26 @@
+@media screen and (min-width: 1500px){
+    .container{
+        max-width: 1470px;
+    }
+}
+section{
+    padding: 50px 0;
+
+    @include breakpoint(desktop){
+        padding: 40px 0;
+     }
+}
+.heading{
+    margin-bottom: 55px;
+
+    @include breakpoint(desktop){
+        margin-bottom: 35px;
+     }
+}
+.mrg-btm{
+    margin-bottom: 50px;
+
+    @include breakpoint(desktop){
+       margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,128 @@
+#footer {
+    background-color: $b;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 90px;
+        background-color: #333333;
+        width: 100%;
+        height: 1px;
+
+        @include breakpoint(desktop){
+            top: 80px;
+        }
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        align-items: center;
+
+        .social-icons {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            h4 {
+                margin-bottom: 0;
+                color: $w;
+                text-transform: capitalize;
+                font-weight: 500;
+            }
+
+            ul {
+                margin-bottom: 0;
+                display: flex;
+                margin-left: 50px;
+
+                li {
+                    margin: 0 30px 0 0px;
+                    font-weight: 600;
+                    font-size: 25px;
+
+                    @include breakpoint(desktop){
+                        margin: 0 20px 0px 0;
+                        font-size: 20px;
+                    }
+
+                    a {
+                        color: $w;
+                    }
+                }
+            }
+        }
+
+        .terms {
+            ul {
+                display: flex;
+                margin-bottom: 0;
+
+                li {
+                    margin: 0 80px 0 0px;
+                    font-weight: 600;
+                    font-family: $serif;
+
+                    @include breakpoint(desktop){
+                        margin: 0 50px 0px 0;
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        color: $w;
+                        font-size: 19px;
+                        position: relative;
+
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            left: 0;
+                            bottom: -10px;
+                            background-color: #fff;
+                            width: 0;
+                            height: 3px;
+                            transition: all 0.3s ease-in-out;
+                        }
+ 
+                        &:hover{
+                            color:$w;
+                            &::after{
+                                width: 50%;
+                            }
+                        }
+
+                        @include breakpoint(desktop){
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-copyright {
+        padding: 20px 0 10px 0;
+
+        @include breakpoint(desktop){
+            padding: 15px 0 6px 0;
+        }
+
+        p {
+            margin-bottom: 0;
+            color: $w;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 300;
+
+            @include breakpoint(desktop){
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,388 @@
+body {
+overflow-x: hidden;
+}
+.form-group{
+position: relative;
+}
+span.fa.fa-fw.field_icon.toggle-password.fa-eye-slash {
+position: absolute;
+right: 5%;
+top: 60%;
+color: #000;
+}
+.fa-fw{
+position: absolute;
+right: 5%;
+top: 60%;
+color: #000;
+}
+a.disabled {
+pointer-events: none;
+}
+.meat-checkbox.addover_lay {
+pointer-events: none;
+}
+.comment-reply-title {
+display: none;
+}
+.reply {
+display: none;
+}
+body ::marker {
+font-size: inherit;
+}
+.terms ol li {
+color: #000;
+}
+span.ply-btn {
+font-size: 100px;
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+}
+.video-figure video {
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+figure.video-figure {
+position: relative;
+height: 200px;
+}
+form.shp-week-form input[type="submit"] {
+width: 40px;
+border: 1px solid #000;
+border-radius: 3px;
+font-weight: 600;
+font-size: 18px;
+}
+form.shp-week-form {
+color: #000;
+padding: 0 16px;
+position: relative;
+top: 8px;
+}
+form.shp-week-form span a {
+color: #000;
+font-weight: 500;
+}
+form.shp-week-form span {
+padding: 0 10px;
+position: relative;
+top: 2px;
+}
+.step1 .step-process-box .radio-btns .form-group [type=radio]:checked+label:after {
+opacity: 1;
+background-color: rgba(0, 18, 84, 0.3);
+}
+.step1.step2-age.step4-meat .meat-box .mrg-btm .meat-checkbox.open label {
+background-color: rgba(0, 18, 84, 0.3);
+}
+.pay-btns ul.nav.nav-tabs li a {
+background: linear-gradient(to right, #244298 0%, #0191d0 51%, #244298 100%);
+color: #fff;
+padding: 10px 20px;
+border-radius: 40px;
+margin: 0 20px 0 0;
+}
+.pay-btns ul.nav.nav-tabs {
+margin-bottom: 30px;
+}
+form#pay_with_stripe .form-group input {
+background: transparent;
+height: 60px;
+border-radius: 10px;
+font-size: 17px;
+border: 1px solid #ced4da;
+padding: 0 20px;
+}
+form#pay_with_stripe .form-group {
+display: inline-block;
+margin: 0px 35px 25px 0px;
+width: 44%;
+}
+form#pay_with_stripe {
+width: 100%;
+max-width: 800px;
+background: #efefef;
+padding: 40px 50px;
+border-radius: 10px;
+}
+form#pay_with_stripe .row {
+padding: 0 20px;
+display: inline;
+}
+form#pay_with_stripe .row .left .form-group input {
+margin-bottom: 15px;
+}
+form#pay_with_stripe .row .left {
+width: 100%;
+}
+form#pay_with_stripe .row .right {
+width: 100%;
+}
+.form-group.col-md-12 label {
+align-items: center;
+}
+.form-group.col-md-12 label input.checkbox-btn.traveller-check {
+position: relative;
+left: -8px;
+}
+form#pay_with_stripe input[type="submit"] {
+background: linear-gradient(to right, #244298 0%, #0191d0 51%, #244298 100%);
+color: #fff;
+}
+form#pay_with_stripe .form-group.col-md-12 label span.checkmark a {
+background: transparent;
+color: #000;
+margin: 0 !important;
+padding: 0;
+}
+label#email-error {
+position: absolute;
+font-size: 13px;
+}
+.step1.step2-age.step4-meat .meat-box .mrg-btm .meat-checkbox .form-group input {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+display: block;
+z-index: 99;
+cursor: pointer;
+}
+.how-it-works .loss-weight p {
+background: -webkit-linear-gradient(left, #0191d0 38%, #244298 100%);
+text-align: center;
+color: #fff;
+border-radius: 6px;
+margin-bottom: 17px;
+line-height: 2.2;
+}
+.how-it-works .loss-weight p:last-child {
+margin-bottom: 40px;
+}
+.male-table table td img {
+width: 77px;
+height: 52px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.male-table table td.youtube_link a{position:relative;}
+.male-table table td a span {
+display: block;
+position: absolute;
+left: 0;
+top: -8px;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: 0;
+transition: all 0.3s ease-in-out;
+text-align: center;
+color: red;
+font-size: 25px;
+}
+#dash-main .male-table table td a span {
+display: block;
+position: absolute;
+left: 0;
+top: 16px;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: 0;
+transition: all 0.3s ease-in-out;
+text-align: center;
+color: red;
+font-size: 25px;
+}
+.dash-meal-table .male-table table tr td {
+padding: 0 16px;
+font-size: 14px;
+position: relative;
+}
+.male-table table td a {
+transition: all 0.3s ease-in-out;
+}
+.male-table table td a:hover span {
+display: block;
+transition: all 0.3s ease-in-out;
+}
+.male-table table td a span i.fab.fa-youtube {
+color: red;
+font-size: 30px;
+}
+.how-it-works.result-male .meal-banner .chart .heading {
+text-align: center;
+margin-bottom: 0;
+}
+.meal-banner .graph {
+position: relative;
+top: -20px;
+}
+@media screen and (max-width: 991px){
+.chart {
+transform: scale(0.5) !important;
+}
+.chart .center-logo {
+left: 50%;
+}
+.chart .graph { display: flex;
+justify-content: center;
+}
+.chart {
+transform: scale(0.8);
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+position: relative;
+top: -15%;
+height: 220px;
+}
+}
+@media not all and (min-resolution:.001dpcm) {
+.step1.step2-age .step-process-box .age-select.radio-btns .form-group select.form-control{
+text-indent:calc(50% - 50px);             
+} 
+#health_Status .form-group select.form-control{ text-indent:calc(50% - 0px);}
+}
+@media screen and (max-width: 767px){ #dash-main .male-table table td a span {
+display: block;
+position: absolute;
+left: -70px !important;
+top: 16px;
+right: 0;
+bottom: 0;
+margin: auto;
+z-index: 0;
+transition: all 0.3s ease-in-out;
+text-align: center;
+color: red;
+font-size: 25px;
+transform: translate(29px, 0px);
+}
+.how-it-works.result-male .meal-banner .male-table table tr td {
+padding: 0 8px;
+font-size: 13px;
+}
+.dash-meal-table .male-table table {
+width:  550px !important;
+}
+.prvs-order-btns .btn{
+margin-bottom: 10px;
+}
+.pay-btns ul.nav.nav-tabs li{
+margin-bottom: 22px;
+}
+.dashboard-table {
+width: max-content;
+}
+.dashboard .dashboard-recent-payment {
+overflow-x: scroll;
+}
+.dashboard .ssingle-radio{
+width: auto !important;
+padding: 20px 20px !important;
+}
+.chart {
+transform: scale(0.45) !important;
+}
+.dash-meal-table .male-table table tr td a {
+font-size: 13px;
+}
+#dash-header .form-bar .dropdown a#navbarDropdownMenuLink img {
+width: 42px;
+height: 42px;
+margin-right: 5px;
+}
+.dash-meal-table .male-table table tr td {
+padding: 0 14px;
+}
+#dash-header .form-bar .dropdown a#navbarDropdownMenuLink {
+max-width: 122px;
+}
+#dash-main .product-lists {
+width: auto;
+}
+#dash-main .product-lists .single-list:nth-child(odd) {
+margin-right: 0;
+} .recipe_modal .flex{
+flex-direction: column;
+}
+.recipe_modal .right {
+margin: 0 !important;
+}
+.male-table table td a span{
+transform: translate(50%, -7px);
+left: 0;
+top: 0%;
+right: auto;
+}
+}
+.show-sidebar-btn{
+z-index: 9;
+} #dash-sidebar .profile figure img {
+width: 100%;
+height: 100%;
+}
+.imperial-box, .metric-box input.form-control {
+color: #fff;
+}
+.metric-box input.form-control {
+color: #fff;
+}
+.imperial-box .form-control {
+color: #fff;
+}
+.step1.step2-age .step-process-box .age-select.radio-btns .form-group select.form-control {
+text-align: -webkit-center !important;
+text-align: center !important;
+text-align: -moz-center !important;
+width: 100%;
+margin: auto;
+text-align-last: center;
+} option {
+text-align: center;
+text-align: -webkit-center !important;
+text-align: center !important;
+text-align: -moz-center !important;
+width: 100%;
+margin: auto;
+}
+@media screen and (max-width: 480px){
+form.shp-week-form input[type="submit"] {
+width: 30px;
+font-size: 16px;
+}
+form.shp-week-form span {
+padding: 0 2px;
+font-size: 14px;
+}
+form.shp-week-form {
+padding: 0 0px;
+}
+}
+@media screen and (max-width:579px){
+.step1.step2-age.email-address .step-process-box.meal-process-box .age-select.radio-btns.meal .check-label input:checked+label:after{
+left: 0px;
+position: absolute;
+}
+.step1.step2-age.email-address .step-process-box.meal-process-box .age-select.radio-btns.meal .check-label input:checked+label:after{
+top: 0px;
+left: 8px;
+}
+.step1.step2-age.email-address .step-process-box.meal-process-box .age-select.radio-btns.meal .check-label label{
+text-align: left;
+display: inline;
+}
+}
+#dash-sidebar ul {
+height: 100% !important;
+}

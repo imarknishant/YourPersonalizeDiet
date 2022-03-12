@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for YourRersonalizedDiet	</title>
+	<atom:link href="https://yourpersonalizeddiet.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://yourpersonalizeddiet.com</link>
+	<description>Are you sick of yo-yo effects and diets that starve you. Create your meal plan right here, right now and you will see the difference in no time! A healthy diet isn&#039;t just about losing weight, it&#039;s also important to help you lead a healthier lifestyle.</description>
+	<lastBuildDate>Tue, 01 Mar 2022 12:25:08 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+</channel>
+</rss>
